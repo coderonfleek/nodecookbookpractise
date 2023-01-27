@@ -1,0 +1,9 @@
+RabbitMQ Docker
+sudo docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.8-management
+
+Waiting for Services to start before starting a dependent service
+https://stackoverflow.com/questions/31746182/docker-compose-wait-for-container-x-before-starting-y/41854997#41854997
+
+Testing with Autocannon
+//npm install autocannon -g
+https://www.nearform.com/blog/load-testing-with-autocannon/

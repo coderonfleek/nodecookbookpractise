@@ -1,0 +1,6 @@
+- Go to myaccount.google.com
+- Go to Security -> 2-Step Verification
+- Enable 2-step verification
+- Go to Security -> App passwords (might require sign-in)
+- In the select app dropdown, select "other" and enter a name for your app (sendmail)
+- Copy your generated app password

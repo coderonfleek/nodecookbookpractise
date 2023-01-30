@@ -19,5 +19,5 @@ mailTransport.sendMail(message, (err, info) => {
 		console.error(err);
 	}
 
-	console.log("Mail sucessfully sent");
+	console.log(`Mail sucessfully sent: ${JSON.stringify(info)}`);
 });
